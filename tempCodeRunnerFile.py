@@ -1,2 +1,4 @@
-# Check your answer
-# q3.check()
+i = 0
+while i < 10:
+    print(i, end=' ')
+    i += 1
