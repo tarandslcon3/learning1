@@ -1,2 +1,3 @@
-short_planets = [planet for planet in planets if len(planet) <= 7]
-# print(short_planets)
+
+def count_negatives(nums):
+    return len([num for num in nums if num < 0])
