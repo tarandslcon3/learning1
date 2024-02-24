@@ -1,4 +1,2 @@
-i = 0
-while i < 10:
-    print(i, end=' ')
-    i += 1
+short_planets = [planet for planet in planets if len(planet) <= 7]
+# print(short_planets)
